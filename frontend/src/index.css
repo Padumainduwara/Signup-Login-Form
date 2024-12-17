@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.signup-container {
+    max-width: 900px;
+    background-color: #1a1a2e;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 2rem 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    text-align: center;
+}
+
+.form-section {
+    background-color: #222831;
+    color: #eeeeee;
+    padding: 2rem 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.text-white {
+    color: #eeeeee !important;
+}
+
+.input-group-text {
+    background-color: #393e46;
+    color: #eeeeee;
+    border-radius: 8px 0 0 8px;
+}
+
+.form-control {
+    background-color: #393e46;
+    color: #eeeeee;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    padding: 0.75rem 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+.login-btn {
+    background-color: #00adb5;
+    color: #222831;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.register-btn {
+    background-color: #6a11cb;
+    color: #eeeeee;
+    font-weight: bold;
+    padding: 12px 20px;
+    /* Increased padding for better visibility */
+    border-radius: 30px;
+    width: 100%;
+    transition: background-color 0.3s;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+
+.register-btn:hover {
+    background-color: #9a55ff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .signup-container {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .welcome-section {
+        border-radius: 8px 8px 0 0;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    .form-section {
+        border-radius: 0 0 8px 8px;
+        padding: 1.5rem;
+    }
+    .register-btn {
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
+}
