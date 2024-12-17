@@ -1,4 +1,3 @@
-/*
  * Signup-Login Form Application
  * --------------------------------
  * This application is a signup and login form built with:
@@ -35,4 +34,4 @@
  * 
  * For backend deployment, follow similar steps using Heroku, Render, or AWS.
  * 
- */
+
