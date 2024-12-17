@@ -26,7 +26,7 @@
  *    npm install
  * 
  * 2. Build the project:
- *    npm run build
+ *    npm run dev
  * 
  * 3. Deploy the `dist` folder to a hosting provider like Netlify, Vercel, or GitHub Pages.
  *    - Netlify: Drag and drop the `dist` folder into the Netlify dashboard.
@@ -35,7 +35,4 @@
  * 
  * For backend deployment, follow similar steps using Heroku, Render, or AWS.
  * 
- * Author: [Your Name]
- * Created: [Date]
- * License: [License Type, e.g., MIT]
  */
